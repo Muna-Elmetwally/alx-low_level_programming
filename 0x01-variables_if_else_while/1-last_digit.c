@@ -6,7 +6,7 @@
  *
  * Description: enable us to write a standard output
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -17,15 +17,15 @@ int main(void)
   ld = n % 10;
   if (ld > 5)
     {
-      printf("the last digit of %d is %d and is greater than 5\n, ld");
+      printf("the last digit of %d is %d and is greater than 5\n", n, ld);
     }
   else if (ld < 6)
     {
-      printf("the last digit of %d is %d and is less than 5\n, ld");
+      printf("the last digit of %d is %d and is less than 5\n", n, ld);
     }
   else if (ld == 0)
     {
-      printf("the last digit of %d is %d and is 0\n, ld");
+      printf("the last digit of %d is %d and is 0\n", n, ld);
     }
   return (0);
 }
