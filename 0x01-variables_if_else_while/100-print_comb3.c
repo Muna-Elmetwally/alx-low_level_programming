@@ -6,14 +6,13 @@
  */
 int main(void)
 {
-int n, m;
-{
 putchar('0');
 putchar('1');
 putchar(',');
 putchar(' ');
 
-for (int n = 1; i <= 9; n++)
+int n;
+for (int n = 1; n <= 9; n++)
 {
 for (int m = 0; m < n; m++)
 {
