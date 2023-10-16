@@ -11,7 +11,7 @@ while (s[i])
 i++;
 while (i--)
 {      
-putchar(s[j]);
+_putchar(s[j]);
 }
-putchar('\n');
+_putchar('\n');
 }
