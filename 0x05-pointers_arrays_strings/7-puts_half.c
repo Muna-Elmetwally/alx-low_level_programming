@@ -1,20 +1,26 @@
+7-puts_half.c
+
+
 #include "main.h"
 
 /**
- * puts_half - prints half of a string
- * followed by a new line
- * @str: string to be printed
- */
+* puts_half- writes the character c to stdout
+* @str: The character to print
+*
+* Return: On success 1.
+*/
+
 void puts_half(char *str)
 {
-int i;
+	int x;
 
-for(i = 0, str[i], != '\0'; i++))
-;
-i++;
-for(i /=2, str[i], != '\0'; i++)
-{
-_putchar(str[i]);
-}
-_putchar('\n');
+	for (x = 0; str[x] != '\0'; x++)
+	{
+		x++;
+	}
+	for (x /= 2; str[x] != '\0'; x++)
+	{
+		_putchar(str[x]);
+	}
+	_putchar('\n');
 }
