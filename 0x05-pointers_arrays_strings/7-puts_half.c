@@ -1,6 +1,3 @@
-7-puts_half.c
-
-
 #include "main.h"
 
 /**
@@ -24,3 +21,4 @@ void puts_half(char *str)
 	}
 	_putchar('\n');
 }
+
