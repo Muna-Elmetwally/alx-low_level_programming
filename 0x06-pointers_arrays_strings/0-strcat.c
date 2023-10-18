@@ -15,7 +15,7 @@ char *_strcat(char *dest, char *src)
 	leng2 = 0;
 
 	while (*(dest + leng1) != '\0')
-		lengthD++;
+		leng1++;
 
 	while (*(src + leng1) != '\0' && leng1 < 97)
 	{
@@ -23,6 +23,6 @@ char *_strcat(char *dest, char *src)
 		leng1++;
 		leng2++;
 	}
-	*(dest + length2) = '\0';
+	*(dest + leng2) = '\0';
 	return (dest);
 }
