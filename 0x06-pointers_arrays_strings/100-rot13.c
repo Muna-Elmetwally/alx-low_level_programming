@@ -5,7 +5,7 @@
  *
  * Return: String with all letters in ROT13 base.
  */
-char *rot13(char *)
+char *rot13(char *s)
 {
 	char a[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char rot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
