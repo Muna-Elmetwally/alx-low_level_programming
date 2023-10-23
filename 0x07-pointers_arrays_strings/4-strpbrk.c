@@ -4,11 +4,12 @@
 * _strpbrk - prints the consecutive caracters of s1 that are in s2.
 * @s: source string
 * @accept: searching string
+*
 * Return: new string.
 */
 char *_strpbrk(char *s, char *accept)
 {
-unsigned int i, j;
+unsigned int y, x;
 for (y = 0; *(s + y); y++)
 {
 for (x = 0; *(accept + x); x++)
