@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-* _memset - fills memory with a constant byte.
-* @s: source string
-* @b: the contant byte for filling
+* _memcpyy - fills memory with a constant byte.
+* @dest: source string
+* @src: the contant byte for filling
 * @n: lenght of buffer
 * Return: new string.
 */
