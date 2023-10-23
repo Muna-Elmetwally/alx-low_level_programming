@@ -6,13 +6,13 @@
 * @n: lenght of buffer
 * Return: new string.
 */
-char *_memset(char *s, char b, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 unsigned int i = 0;
 while (i < n)
 {
-*(s + i) = b;
+*(dest + i) = *(src + i);
 i++;
 }
-return (s);
+return (dest);
 }
