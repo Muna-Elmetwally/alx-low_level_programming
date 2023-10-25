@@ -20,5 +20,4 @@ else
 {
 return (*s1 - *s2);
 }
-}
 

@@ -5,14 +5,18 @@
  *
  * Return: String with all letters Uppercased.
  */
-void reverse_array(int *a, int n)
+char *string_toupper(char *s)
 {
-    int tmp, i;
+	int i = 0;
 
-    for (i = n - 1; i >= n / 2 : i--)
-    {
-        tmp = a[n - 1 - i] a[n - 1 - i] = a[i];
-        a[i] = tmp;
-    }
+	while (*(s + i) != '\0')
+	{
+		if (*(s + i) >= 'a' && *(s + i) <= 'z')
+		{
+			*(s + i) = *(s + i) - 32;
+		}
+		i++;
+	}
+	return (s);
 }
 
