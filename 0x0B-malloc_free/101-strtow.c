@@ -18,25 +18,4 @@ char **strtow(char *str)
 
 	for (i = 0 ; str[i] != '\0' ; i++)
 	{
-		if (str[i] != 32)
-			con++;
-	}
-
-	c = malloc(sizeof(char) * con);
-
-	if (c == NULL)
-		return (NULL);
-
-	for (i = 0 ; str[i] != '\0' ; i++)
-	{
-		if (str[i] != 32)
-		{
-			*c[t] = str[i];
-			t++;
-		}
-		else
-		{
-		}
-	}
-	return (c);
-}
+		if (str[i] !
