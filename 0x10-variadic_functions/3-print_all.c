@@ -1,5 +1,5 @@
 #include "variadic_functions.h"
-11;rgb:0000/0000/0000#include <stdio.h>
+#include <stdio.h>
 #include <stdarg.h>
 /**
  * print_all - Entry Point
