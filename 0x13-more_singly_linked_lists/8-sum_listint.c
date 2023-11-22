@@ -7,15 +7,15 @@
  *         Otherwise - 0 if the list is empty
  */
 
-int s_listint(listint_t *head)
+int sum_listint(listint_t *head)
 {
-	int s = 0;
+	int sum = 0;
 
 	while (head != NULL)
 	{
-		s += head->n;
+		sum += head->n;
 		head = head->next;
 	}
 
-	return (s);
+	return (sum);
 }
