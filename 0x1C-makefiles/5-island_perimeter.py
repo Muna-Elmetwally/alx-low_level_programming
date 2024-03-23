@@ -3,22 +3,14 @@
 
 
 def island_perimeter(grid):
-    """
-    Returns the perimeter of an island described in grid:
-        grid is a list of list of integers:
-            *0 represents a water zone
-            *1 represents a land zone
-            *One cell is a square with side length 1
-            *Grid cells are connected horizontally/vertically (not diagonally)
-            *Grid is rectangular, width and height don’t exceed 100
-            *Grid is completely surrounded by water, and there is
-                one island (or nothing)
-            *The island doesn’t have “lakes” (water inside that isn’t
-                connected to the water around the island)
-    Args(grid):
-                given list of a double array of 0s and 1s
+    """Return the perimiter of an island.
+
+    The grid represents water by 0 and land by 1.
+
+    Args:
+        grid (list): A list of list of integers representing an island.
     Returns:
-            the preimeter of the island
+        The perimeter of the island defined in grid.
     """
     width = len(grid[0])
     height = len(grid)
@@ -34,4 +26,3 @@ def island_perimeter(grid):
                 if (i > 0 and grid[i - 1][j] == 1):
                     edges += 1
     return size * 4 - edges * 2
-
